@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: brown;
+    
+}
+
+#logo {
+    font-weight: 100;
+    font-size: 50px;
+    font-style: italic;
+    color: yellow;
+    text-align: center;
+    font-stretch: normal;
+}
+
+.a1 {
+    color: yellow;
+    font-size: 30px;
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: 0 100px;
+    text-align: justify;
+}
+.a2 {
+    color: yellow;
+    font-size: 30px;
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: 0 100px;
+    text-align: justify;
+}
+.a3 {
+    color: yellow;
+    font-size: 30px;
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: 0 100px;
+    text-align: justify;
+}
+.a4 {
+    color: yellow;
+    font-size: 30px;
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: 0 100px;
+    text-align: justify;
+}
+
+body {
+    background-color: orange;
+}
+
+#finalFantasy {
+    background-color: brown;
+}
+
+#imageFF {
+    width: 350px;
+}
+
+#videoFF {
+    width: 100%;
+}
+
+#tlozimage {
+    width: 350px;
+}
+
+#tlozvideo {
+    width: 100%;
+}
+
+#TLOZ {
+    background-color: brown;
+}
+
+#RE4 {
+    background-color: brown;
+}
+
+#list{
+    background-color: orange;
+}
+
+#re4image{
+    width: 350px;
+}
+
+#re4video{
+    width: 100%;
+}
+
+#li{
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    color: brown;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.button {
+    align-items: center;
+    background-color: burlywood;
+    color: brown;
+}

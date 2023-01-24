@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Clase 2</title>
 </head>
 <body>
-    <header>
-        <h1>Registrarse</h1>
+    <header class="header">
+        <h1 id="logo">Registrarse</h1>
         <hr>
         <nav>
-            <a href="../index.html">Inicio</a>
+            <a href="../index.html" class="a1">Inicio</a>
             <br>
-            <a href="./login.html">Login</a>
+            <a href="./login.html" class="a1">Login</a>
             
         </nav>
     </header>
@@ -22,34 +23,35 @@
             <!--Formulario de registro-->
             <div id="formulario">
                 <br>
-                <form required action="Name">Nombre: <input type="text" name="name" id="name">
+                <form required action="Name">Nombre: <input type="text" name="name" id="name" class="button">
                 <br>
                 <br>
-                <form required action="LastName">Apellido: <input type="text" name="LastName" id="lastname"></form>
+                <form required action="LastName">Apellido: <input type="text" name="LastName" id="lastname" class="button"></form>
                 <br>
-                <form required action="Email"> Email: <input type="email" name="Email" id="email"></form>
+                <form required action="Email"> Email: <input type="email" name="Email" id="email" class="button"></form>
                 <br>
-                <form required action="Password">Ingrese una contrase;a <input type="password" name="Password" id="password"></form>
+                <form required action="Password">Ingrese una contrase;a <input type="password" name="Password" id="password" class="button"></form>
                 <br>
-                <form required action="PassAgain">Ingrese la contrase;a nuevamente <input type="password" name="Password" id="password"></form>
+                <form required action="PassAgain">Ingrese la contrase;a nuevamente <input type="password" name="Password" id="password" class="button"></form>
                 <br>
-                <button type="submit">Siguiente</button>
+                <button type="submit" class="button">Siguiente</button>
                 <br>
             </div>
             <hr>
             <hr>
             <br>
             <div>
+                <!--Checkbox-->
                 En que consola juegas?
                 <br>
                 <br>
-                PlayStation<input type="radio" name="Consola" value="PlayStation">
+                PlayStation<input type="radio" name="Consola" value="PlayStation" class="button">
                 <br>
-                XBOX <input type="radio" name="Consola" value="XBOX">
+                XBOX <input type="radio" name="Consola" value="XBOX" class="button">
                 <br>
-                PC <input type="radio" name="Consola" value="PC">
+                PC <input type="radio" name="Consola" value="PC" class="button">
                 <br>
-                Nintendo <input type="radio" name="Consola" value="Nintendo">
+                Nintendo <input type="radio" name="Consola" value="Nintendo" class="button">
             </div>
             <hr>
             <hr>
@@ -58,29 +60,29 @@
                 Cual es tu genero favorito?
                 <br>
                 <br>
-                JRPG <input type="radio" name="genero" value="JRPG">
+                JRPG <input type="radio" name="genero" value="JRPG" class="button">
                 <br>
-                RPG <input type="radio" name="genero" value="RPG">
+                RPG <input type="radio" name="genero" value="RPG" class="button">
                 <br>
-                Deportes <input type="radio" name="genero" value="deportes">
+                Deportes <input type="radio" name="genero" value="deportes" class="button">
                 <br>
-                Accion <input type="radio" name="genero" value="accion">
+                Accion <input type="radio" name="genero" value="accion" class="button">
                 <br>
-                Aventura <input type="radio" name="genero" value="aventura">
+                Aventura <input type="radio" name="genero" value="aventura" class="button">
                 <br>
-                Peleas <input type="radio" name="genero" value="peleas">
+                Peleas <input type="radio" name="genero" value="peleas" class="button">
                 <br>
-                RogueLike <input type="radio" name="genero" value="roguelike">
+                RogueLike <input type="radio" name="genero" value="roguelike" class="button">
                 <br>
-                SoulsLike <input type="radio" name="genero" value="Soulslike">
+                SoulsLike <input type="radio" name="genero" value="Soulslike" class="button">
             </div>
             <hr>
             <hr>
         </section>
-        <button type="submit">Logearse</button><a href="../index.html">Volver</a>
+        <center><button type="submit" class="button">Logearse</button></center>
     </main>
-    <footer>
-        
+    <footer class="header">
+        <a href="../index.html" class="a1">Volver</a>
     </footer>
 </body>
 </html>

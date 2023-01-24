@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Clase 2</title>
 </head>
 <body>
-    <header>
-        <h1>4Gamerz</h1>
+    <header class="header">
+        <h1 id="logo">4Gamerz</h1>
         <hr>
         <br>
-        <h2>Login</h2>
+        <h2 class="a1">Login</h2>
         <hr>
         <nav>
-            <a href="../index.html">Inicio</a>
+            <a href="../index.html" class="a1">Inicio</a>
         </nav>
     </header>
     <main>
@@ -24,13 +25,13 @@
                 <br>
                 <br>
                 <hr>
-                <label for="email">Email:</label>
-                <form required action="email"><input type="email" name="email" id="email" placeholder="Email"></form>
+                <center><label for="email" class="email">Email:</label></center>
+                <form required action="email"><center><input type="email" name="email" id="email" placeholder="Email" class="button"></center></form>
                 <br>
-                <label for="password">Contrase;a</label>
-                <form required action="password"><input type="password" name="password" id="password" placeholder="Password"></form>
+                <center><label for="password" class="email">Contrase;a</label></center>
+                <form required action="password"><center><input type="password" name="password" id="password" placeholder="Password" class="button"></center></form>
                 <br>
-                <button type="submit">Ingresar</button><button type="reset">Resetear</button>
+                <center><button type="submit" class="button">Ingresar</button><button type="reset" class="button">Resetear</button></center>
             </div>
         </section>
     </main>
